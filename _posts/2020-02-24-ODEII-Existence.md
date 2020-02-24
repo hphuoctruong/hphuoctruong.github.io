@@ -12,14 +12,13 @@ where $f \in K_{loc}(I\times \mathbb{R}^n,\mathbb{R}^n), (t_0,x_0) \in I \times 
 
 > **Theorem 2.1.** Assume that $x = x(t)$ is a solution to \eqref{eq(1)} on an interval $(a,b) \subset I$. Then the following statements are equivalent:
 > 1. $x$ is right extendable;
-> 2. $b < \sup I$ and $\liminf_{t \to b^-} \lvert x(t) \lvert < \infty$;
+> 2. $b < \sup I$ and $\liminf_{t \to b^-} \lvert x(t) \rvert < \infty$;
 > 3. $b < \sup I$ and $\lim_{t \to b^-} x(t)$ exists and is finite.
 
 **Proof.**
 
-(1) implies (2).
-
-Assume that
+Assume that $x$ is right extendable. Then there exists a solution $\widetilde{x}$ of \eqref{eq(1)} on $(a,\widetilde{b})$, where $\widetilde{b} > b$ and $\widetilde{x} = x$ on $(a,b)$. From this, we easily get $b < \widetilde{b} < \sup I$ and
+$$\liminf_{t \to b^-} \lvert x(t) \rvert = \lim_{t \to b^-} \lvert \widetilde{x}(t) \lvert = \rvert x(b) \lvert < \infty.$$
 
 
 
