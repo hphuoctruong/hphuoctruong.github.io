@@ -12,7 +12,7 @@ where $f \in K_{loc}(I\times \mathbb{R}^n,\mathbb{R}^n), (t_0,x_0) \in I \times 
 
 > **Theorem 2.1.** Assume that $x = x(t)$ is a solution to \eqref{eq(1)} on an interval $(a,b) \subset I$. Then the following statements are equivalent:
 > - $x$ is right extendable;
-> - $b < \sup I$ and $\lim_{t \to b^-} |x(t)| < \infty$;
+> - $b < \sup I$ and $\liminf_{t \to b^-} \lvert x(t) \lvert < \infty$;
 > - $b < \sup I$ and $\lim_{t \to b^-} x(t)$ exists and is finite.
 
 **Proof.**
