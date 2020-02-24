@@ -8,7 +8,7 @@ Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a pro
 ### Built on Poole
 
 Motivation
-> **Định lý 1.1.** Chứng minh rằng \[a+b \ge 2\sqrt{ab}.\]
+> **Định lý 1.1.** Chứng minh rằng \\[a+b \ge 2\sqrt{ab}.\\]
 
 
 
