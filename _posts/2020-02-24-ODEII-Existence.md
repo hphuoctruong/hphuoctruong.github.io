@@ -3,17 +3,20 @@ layout: post
 title: Existence of solutions
 ---
 We consider the following equation
-\begin{equation}
-x' = f(t,x(t)),\quad x(t_0) = x_0, \label(eq(1))
+\begin{equation}\label{eq(1)}
+x' = f(t,x(t)),\quad x(t_0) = x_0,
 \end{equation}
-where $f \in K_{loc}(I\times \mathbb{R}^n,\mathbb{R}^n)$, (t_0,x_0) \in 
+where $f \in K_{loc}(I\times \mathbb{R}^n,\mathbb{R}^n), (t_0,x_0) \in I \times \mathbb{R}^n$.
 
 
 
-> **Theorem 2.1.** Assume that $x = x(t)$ is a solution to \eqref{eq(1)}. Then the following statements are equivalent:
-> - AB
-> - AB
-> - ABC
+> **Theorem 2.1.** Assume that $x = x(t)$ is a solution to \eqref{eq(1)} on an interval $(a,b) \subset I$. Then the following statements are equivalent:
+> - $x$ is right extendable;
+> - $b < \sup I$ and $\liminf_{t \to b^-} |x(t)| < \infty$;
+> - $b < \sup I$ and $\lim_{t \to b^-} x(t)$ exists and is finite.
+
+**Proof.**
+
 
 
 
