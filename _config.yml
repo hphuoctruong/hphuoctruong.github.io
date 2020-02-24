@@ -9,6 +9,8 @@ author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
+paginate:         5
+
 relative_links:
   enabled: true
   collections: true
