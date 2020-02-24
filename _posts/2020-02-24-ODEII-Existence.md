@@ -17,6 +17,10 @@ where $f \in K_{loc}(I\times \mathbb{R}^n,\mathbb{R}^n), (t_0,x_0) \in I \times 
 
 **Proof.**
 
+(1) implies (2).
+
+Assume that
+
 
 
 
