@@ -2,6 +2,7 @@
 layout: post
 title: Existence of solutions
 ---
+<div style="text-align: justify">
 We consider the following equation
 \begin{equation}\label{eq(1)}
 x' = f(t,x(t)),\quad x(t_0) = x_0,
@@ -11,9 +12,9 @@ where $f \in K_{loc}(I\times \mathbb{R}^n,\mathbb{R}^n), (t_0,x_0) \in I \times 
 
 
 > **Theorem 2.1.** Assume that $x = x(t)$ is a solution to \eqref{eq(1)} on an interval $(a,b) \subset I$. Then the following statements are equivalent:
-> - $x$ is right extendable;
-> - $b < \sup I$ and $\liminf_{t \to b^-} \lvert x(t) \lvert < \infty$;
-> - $b < \sup I$ and $\lim_{t \to b^-} x(t)$ exists and is finite.
+> 1. $x$ is right extendable;
+> 2. $b < \sup I$ and $\liminf_{t \to b^-} \lvert x(t) \lvert < \infty$;
+> 3. $b < \sup I$ and $\lim_{t \to b^-} x(t)$ exists and is finite.
 
 **Proof.**
 
@@ -141,6 +142,4 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
 
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
------
-
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
+</div>
