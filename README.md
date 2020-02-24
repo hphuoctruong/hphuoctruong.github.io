@@ -1,5 +1,6 @@
 ---
-title: Document Center
+layout: page
+title: About
 ---
 # Hyde
 
