@@ -2,8 +2,7 @@
 layout: post
 title: Existence of solutions
 ---
-<div style="text-align: justify">
-We consider the following equation
+We consider the Cauchy problem
 \begin{equation}\label{eq(1)}
 x' = f(t,x(t)),\quad x(t_0) = x_0,
 \end{equation}
@@ -141,5 +140,3 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
 </table>
 
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-</div>
