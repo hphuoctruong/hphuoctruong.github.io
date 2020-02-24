@@ -1,12 +1,12 @@
 # Setup
-title:            'TH-MUNI'
-tagline:          'A Jekyll theme'
-description:      'Master's student - Masaryk university.'
-url:              http://truonghuynhmuni.github.io
+title:            Mathematics
+description:      'Mathematics and friends'
+url:              truonghuynhmuni.github.io
+baseurl:          /
 
 author:
-  name:           'Phuoc Truong Huynh'
-  url:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
 relative_links:
   enabled: true
