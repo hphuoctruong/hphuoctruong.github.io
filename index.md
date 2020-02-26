@@ -5,8 +5,10 @@ title: Home
 
 This is my homepage.
 
+> **Theorem**. Assume that $\mu \in \mathcal{M}(\Omega)$. Then the following equation
 \begin{equation}
-u = \mathbb{G}^{\Omega}_s [\mu] + \mathbb{P}^{\Omega}_s [\tau]
+\mathcal{A}^s u = \mu \text{ in }\Omega, u = 0 \text{ on } \partial \Omega
 \end{equation}
+has a unique solution $u = \mathbb{G}[\mu]$.
 
 $$ABC \Rightarrow BCD$$
