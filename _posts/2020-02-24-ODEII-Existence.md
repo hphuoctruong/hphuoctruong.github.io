@@ -17,5 +17,9 @@ where $f \in K_{loc}(I\times \mathbb{R}^n,\mathbb{R}^n), (t_0,x_0) \in I \times 
 
 **Proof.**
 
-Assume that $x$ is right extendable. Then there exists a solution $\widetilde{x}$ of \eqref{eq(1)} on $(a,\widetilde{b})$, where $\widetilde{b} > b$ and $\widetilde{x} = x$ on $(a,b)$. From this, we easily get $b < \widetilde{b} < \sup I$ and
+$(1) \Rightarrow (2).$ Assume that $x$ is right extendable. Then there exists a solution $\widetilde{x}$ of \eqref{eq(1)} on $(a,\widetilde{b})$, where $\widetilde{b} > b$ and $\widetilde{x} = x$ on $(a,b)$. From this, we easily get $b < \widetilde{b} < \sup I$ and
 \[ \liminf_{t \to b^-} \lvert x(t) \rvert = \lim_{t \to b^-} \lvert \widetilde{x}(t) \lvert = \rvert x(b) \lvert < \infty. \]
+
+$(2) \Rightarrow (3).$
+
+$(3) \Rightarrow (1).$
