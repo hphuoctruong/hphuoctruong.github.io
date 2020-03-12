@@ -9,6 +9,6 @@ This is my homepage.
 \begin{equation}
 \mathcal{A}^s u = \mu \text{ in }\Omega, u = 0 \text{ on } \partial \Omega
 \end{equation}
-has a unique solution $u = \mathbb{G}_^{\Omega}[\mu]$.
+has a unique solution $u = \mathbb{G}_s^{\Omega}[\mu]$.
 
 **Proof.**
