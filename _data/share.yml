@@ -22,7 +22,7 @@ platforms:
     icon: "fab fa-telegram"
     link: "https://telegram.me/share?text=TITLE&url=URL"
   -
-    type: GS
+    type: Google Scholar
     icon: "ai ai-google-scholar-square"
     link: "https://telegram.me/share?text=TITLE&url=URL"
 
