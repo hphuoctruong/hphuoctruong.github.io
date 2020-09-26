@@ -8,4 +8,7 @@ title: About
 # MIT License
 ---
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
+*Bui Thi Hoa*
+Address: U2, 30 Glazebrook, Ballarat East, Vic, Australia, 3350\
+Phone: (+61)-410939728\
+Email: bth.hoa92 at gmail.com, hoa.bui at curtin.edu.au
