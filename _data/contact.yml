@@ -17,6 +17,11 @@
 -
   type: cv
   icon: 'ai ai-cv-square'
+-
+  type: researchgate
+  icon: 'ai ai-researchgate-square'
+
+
 
 
 # Uncomment and complete the url below to enable more contact options
