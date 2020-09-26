@@ -8,7 +8,7 @@ title: About
 # MIT License
 ---
 
-*Bui Thi Hoa*\
+**Bui Thi Hoa**\
 Postdoctoral Researcher\
 Curtin University\
 Address: U2, 30 Glazebrook, Ballarat East, Vic, Australia, 3350\
