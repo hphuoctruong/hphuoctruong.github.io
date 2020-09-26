@@ -61,7 +61,7 @@ $prompt-newer: "{{ site.data.label.post.button.next }}";
 
 .post-navigation {
   padding-top: 3rem;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
 
   .btn {
     @include btn-post-nav;
