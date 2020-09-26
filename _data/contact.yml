@@ -12,10 +12,10 @@
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
 -
-  type: Google Scholar
+  type: googlescholar
   icon: 'ai ai-google-scholar-square'
 -
-  type: CV
+  type: cv
   icon: 'ai ai-cv-square'
 
 
