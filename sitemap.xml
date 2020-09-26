@@ -70,7 +70,7 @@ layout: compress
   {% endcapture %}
 
    <url>
-    <loc>{{ site.url | append: site.baseurl | append: page.url | remove: "index.html" }}</loc>
+    <loc>{{ site.url | append: site.baseurl | append: page.url | remove: "listofposts.html" }}</loc>
     <lastmod>{{ lastmod | date_to_xmlschema }}</lastmod>
 
     {% if page.sitemap.changefreq %}
