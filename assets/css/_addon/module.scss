@@ -38,8 +38,8 @@
 }
 
 %heading {
-  font-weight: 400;
-  font-family: 'Lato', 'Microsoft Yahei', sans-serif;
+  font-weight: 900;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 %section {
@@ -92,11 +92,11 @@
   font-weight: 600;
 }
 
-@mixin label($font-size: 1rem, $font-weight: 600, $color: var(--label-color)) {
+@mixin label($font-size: 1rem, $font-weight: 900, $color: var(--label-color)) {
   color: $color;
   font-size: $font-size;
   font-weight: $font-weight;
-  font-family: 'Roboto Condensed', 'Microsoft Yahei', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, 'Microsoft Yahei', sans-serif;
 }
 
 @mixin align-center {
