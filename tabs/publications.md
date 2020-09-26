@@ -1,6 +1,5 @@
 ---
-title: Tags
-type: tags
+title: List of Publications
 ---
 
 **Bui Thi Hoa**\
