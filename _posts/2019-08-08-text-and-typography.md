@@ -38,6 +38,11 @@ Beside the lake, beneath the trees,
 
 Fluttering and dancing in the breeze.
 
+<div class="row">
+  <div class="column">ABC</div>
+  <div class="column">ABC</div>
+</div>
+
 ## List
 
 ### Ordered list
