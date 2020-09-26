@@ -13,11 +13,12 @@
   icon: "fas fa-stream"
   path: tabs
   url: categories
+
 -
-  name: "Tags"
+  name: "Seminars"
   icon: "fas fa-tags"
   path: tabs
-  url: tags
+  url: seminars
 #-
 #  name: "Archives"
 #  path: tabs
