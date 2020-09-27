@@ -1,7 +1,6 @@
 ---
 title: Homepage
 layout: page
-dynamic_title: true
 ---
 
 {% assign pinned = site.posts | where_exp: "item", "item.pin == true"  %}
