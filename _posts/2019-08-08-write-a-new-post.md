@@ -3,6 +3,7 @@ title: Writing a New Post
 author: Cotes Chung
 categories: [Blogging, Tutorial]
 tags: [writing]
+pin: true
 ---
 
 ## Naming and Path
