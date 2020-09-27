@@ -1,6 +1,6 @@
 ---
 title: Homepage
-layout: pinned
+layout: page
 dynamic_title: true
 ---
 
