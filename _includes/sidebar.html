@@ -69,7 +69,7 @@
       {%- if entry.type == 'github' -%}
         https://github.com/{{ site.github.username }}
       {%- elsif entry.type == 'googlescholar' -%}
-        https://scholar.google.com/citations?user={{site.googlescholar.id}}
+        https://scholar.google.com/citations?user={{ site.googlescholar.name }}
       {%- elsif entry.type == 'researchgate' -%}
         https://www.researchgate.net/profile/{{ site.twitter.username }}
       {%- elsif entry.type == 'email' -%}
