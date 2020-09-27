@@ -1,8 +1,7 @@
 ---
 title: Homepage
-values:
-  layout: page
-  dynamic_title: true    # Hide title in mobile screens.
+layout: page
+dynamic_title: true    # Hide title in mobile screens.
 ---
 &emsp; &emsp; &emsp;
 

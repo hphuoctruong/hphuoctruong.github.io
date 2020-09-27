@@ -32,7 +32,7 @@ twitter:
 
 social:
   name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  email: example@domain.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
@@ -42,7 +42,7 @@ social:
     # - https://www.linkedin.com/in/username
 
 googlescholar:
-  name: aY5Esg4AAAAJ
+  id: aY5Esg4AAAAJ
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
