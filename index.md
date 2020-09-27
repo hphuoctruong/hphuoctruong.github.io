@@ -1,6 +1,10 @@
 ---
 title: Homepage
 layout: page
+breadcrumb:
+  -
+    label: Home
+    url: /
 ---
 &emsp; &emsp; &emsp;
 
