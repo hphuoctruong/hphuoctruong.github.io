@@ -8,7 +8,7 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Bui Thi Hoa                       # the main title
+title: Hoa Thi Bui                      # the main title
 
 tagline: A personal website.  # it will display as the sub-title
 
@@ -20,7 +20,7 @@ description: >-                        # used by seo meta and the atom feed
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://truonghuynhmuni.github.io/'
 
-author: Phuoc Truong Huynh                  # change to your full name
+author: Hoa Bui                  # change to your full name
 
 avatar: /assets/img/sample/avatar.png   # support internet resources
 
