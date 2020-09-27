@@ -2,7 +2,7 @@
 title: Homepage
 layout: page
 ---
-&nbsp; &nbsp; &nbsp; &nbsp;  
+&emsp; &emsp; &emsp;
 
 **Bui Thi Hoa**\
 Postdoctoral Researcher
