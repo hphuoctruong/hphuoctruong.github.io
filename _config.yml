@@ -8,7 +8,7 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Truong                         # the main title
+title: Truong Huynh                       # the main title
 
 tagline: A personal website.  # it will display as the sub-title
 
@@ -40,6 +40,9 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+
+googlescholar:
+  name: aY5Esg4AAAAJ
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
