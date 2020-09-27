@@ -559,7 +559,7 @@ footer {
     &:hover {
       background-color: #2a408e;
       border-color: #2a408e;
-      color: #fff;
+      color: var(--sidebar-color-link);
       transition: none;
     }
   }
