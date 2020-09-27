@@ -71,7 +71,7 @@
       {%- elsif entry.type == 'googlescholar' -%}
         https://scholar.google.com/citations?user={{ site.googlescholar.id }}
       {%- elsif entry.type == 'researchgate' -%}
-        https://www.researchgate.net/profile/{{ site.researchgate.username }}
+        https://www.researchgate.net/profile/{{ site.researchgate.name }}
       {%- elsif entry.type == 'email' -%}
         {% assign email = site.social.email | split: '@' %}
         javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))
