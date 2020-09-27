@@ -90,7 +90,7 @@ $sidebar-display: "sidebar-display";
       font-size: 1.5rem;
       letter-spacing: .5px;
       &:hover {
-        color: #fff;
+        color: var(--sidebar-color-link);
         text-decoration: none;
       }
     }
@@ -186,7 +186,7 @@ $sidebar-display: "sidebar-display";
     }
 
     a:hover, #mode-toggle-wrapper > i:hover {
-      color: #fff;
+      color: var(--sidebar-color-link);
     }
 
     #mode-toggle-wrapper {
@@ -243,7 +243,7 @@ $sidebar-display: "sidebar-display";
   }
 
   &:hover > a {
-    border-color: #fff;
+    border-color: var(--sidebar-color-link);
   }
 
   img {
