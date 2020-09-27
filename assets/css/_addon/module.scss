@@ -8,6 +8,8 @@
 */
 
 /* ---------- scss placeholder --------- */
+@import "_colors/light-typography";
+@import "_colors/dark-typography";
 
 %tag-hover {
   background: var(--tag-hover);
@@ -60,7 +62,7 @@
   text-decoration: none;
 }
 
-@mixin sidebar-links($color: rgba(255, 255, 255, 0.6)) {
+@mixin sidebar-links($color: var(--sidebar-font)) {
   color: $color;
   transition: color 0.35s ease-in-out;
   user-select: none;
