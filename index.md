@@ -1,7 +1,5 @@
 ---
 title: Homepage
-scope:
-  path:
 values:
   layout: page
   dynamic_title: true    # Hide title in mobile screens.
