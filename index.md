@@ -1,10 +1,10 @@
 ---
 title: Homepage
-layout: page
-breadcrumb:
-  -
-    label: Home
-    url: /
+scope:
+  path: 
+values:
+  layout: page
+  dynamic_title: true    # Hide title in mobile screens.
 ---
 &emsp; &emsp; &emsp;
 
