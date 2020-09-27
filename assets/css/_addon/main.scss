@@ -90,7 +90,7 @@ $sidebar-display: "sidebar-display";
       font-size: 1.5rem;
       letter-spacing: .5px;
       &:hover {
-        color: var(--sidebar-color-link);
+        color: #fff;
         text-decoration: none;
       }
     }
@@ -125,7 +125,7 @@ $sidebar-display: "sidebar-display";
     }
     &.active {
       .nav-link {
-        color: #fcfcfc;
+        color: var(--sidebar-color-link);
       }
     }
   }
@@ -186,7 +186,7 @@ $sidebar-display: "sidebar-display";
     }
 
     a:hover, #mode-toggle-wrapper > i:hover {
-      color: var(--sidebar-color-link);
+      color: #fff;
     }
 
     #mode-toggle-wrapper {
@@ -243,7 +243,7 @@ $sidebar-display: "sidebar-display";
   }
 
   &:hover > a {
-    border-color: var(--sidebar-color-link);
+    border-color: #fff;
   }
 
   img {
@@ -559,7 +559,7 @@ footer {
     &:hover {
       background-color: #2a408e;
       border-color: #2a408e;
-      color: var(--sidebar-color-link);
+      color: #fff;
       transition: none;
     }
   }
