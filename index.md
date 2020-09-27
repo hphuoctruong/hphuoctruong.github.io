@@ -1,7 +1,6 @@
 ---
 title: About me
-layout: page
-
+layout: compress
 ---
 
 **Bui Thi Hoa**\
