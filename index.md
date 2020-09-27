@@ -1,6 +1,7 @@
 ---
 title: Homepage
 layout: page
+dynamic_title: true
 ---
 
 **Bui Thi Hoa**\
