@@ -1,7 +1,6 @@
 ---
 title: Homepage
 layout: page
-permalink: /index.md
 ---
 
 
