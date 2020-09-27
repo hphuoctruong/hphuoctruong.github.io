@@ -1,7 +1,7 @@
 ---
 title: About me
-layout: post
-author: Cotes Chung
+layout: page
+
 ---
 
 **Bui Thi Hoa**\
