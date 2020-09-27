@@ -69,9 +69,9 @@
       {%- if entry.type == 'github' -%}
         https://github.com/{{ site.github.username }}
       {%- elsif entry.type == 'googlescholar' -%}
-        https://scholar.google.com/citations?user={{ site.googlescholar.name }}
+        https://scholar.google.com/citations?user={{ site.googlescholar.id }}
       {%- elsif entry.type == 'researchgate' -%}
-        https://www.researchgate.net/profile/{{ site.twitter.username }}
+        https://www.researchgate.net/profile/{{ site.researchgate.username }}
       {%- elsif entry.type == 'email' -%}
         {% assign email = site.social.email | split: '@' %}
         javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))

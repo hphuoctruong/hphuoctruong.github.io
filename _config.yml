@@ -25,14 +25,14 @@ author: Phuoc Truong Huynh                  # change to your full name
 avatar: /assets/img/sample/avatar.png   # support internet resources
 
 github:
-  username: github_username             # change to your github username
+  username: hoa-bui             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@domain.com             # change to your email address
+  name:                   # it will shows as the copyright owner in Footer
+  email: bth.hoa94@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
@@ -42,7 +42,10 @@ social:
     # - https://www.linkedin.com/in/username
 
 googlescholar:
-  name: aY5Esg4AAAAJ
+  id: aY5Esg4AAAAJ
+
+researchgate:
+  name: Thi_Hoa_Bui
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
