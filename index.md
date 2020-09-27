@@ -58,20 +58,6 @@ dynamic_title: true
         {{ content | markdownify | strip_html | truncate: 200 }}
       </p>
     </div>
-
-    <div class="post-meta text-muted">
-      <!-- posted date -->
-      <i class="far fa-clock fa-fw"></i>
-      {% include timeago.html date=post.date tooltip=true %}
-
-      <!-- page views -->
-      {% if site.google_analytics.pv.enabled %}
-      <i class="far fa-eye fa-fw"></i>
-      <span id="pv_{{-post.title-}}" class="pageviews">
-        <i class="fas fa-spinner fa-spin fa-fw"></i>
-      </span>
-      {% endif %}
-    </div>
   </div> <!-- .post-review -->
 
 {% endfor %}
