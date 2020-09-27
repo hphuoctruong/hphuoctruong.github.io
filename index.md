@@ -1,7 +1,9 @@
 ---
-title: About me
-layout: compress
+title: Homepage
+layout: page
+permalink: /index.md
 ---
+
 
 **Bui Thi Hoa**\
 Postdoctoral Researcher
