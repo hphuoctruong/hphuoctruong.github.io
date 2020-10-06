@@ -168,6 +168,17 @@ defaults:
           label: Home
           url: /
 
+  -
+    scope:
+      path: cube
+    values:
+      layout: page
+      dynamic_title: true    # Hide title in mobile screens.
+      breadcrumb:
+        -
+          label: Home
+          url: /
+
 
 sass:
   sass_dir: /assets/css
