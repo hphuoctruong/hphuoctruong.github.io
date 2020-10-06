@@ -1,6 +1,0 @@
-{
-  "hosting": {
-    "public": "_site",
-    "ignore": ["firebase.json", "Gemfile", "Gemfile.lock", "Rakefile", "CNAME", "README.md"]
-  }
-}
