@@ -173,7 +173,7 @@ defaults:
       path: tabsen
     values:
       layout: page
-      dynamic_title: true    # Hide title in mobile screens.
+      dynamic_title: true
       breadcrumb:
         -
           label: Home
