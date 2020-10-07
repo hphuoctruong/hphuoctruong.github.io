@@ -173,7 +173,6 @@ defaults:
       path: tabsen
     values:
       layout: page
-      dynamic_title: true
       breadcrumb:
         -
           label: Home
