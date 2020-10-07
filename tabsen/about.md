@@ -1,5 +1,6 @@
 ---
-title: About
+title: Rubik
+permalink: /tabsen/
 
 # The About page
 # v2.0
