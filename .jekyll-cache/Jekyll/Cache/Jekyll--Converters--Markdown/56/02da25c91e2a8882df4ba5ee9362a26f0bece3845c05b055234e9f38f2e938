@@ -1,11 +1,11 @@
-<html>
+I"H#<html>
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
-		<meta name="description" content="Guess Who">
-		<meta name="keywords" content="Guess Who Game">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+		<meta name="description" content="Guess Who" />
+		<meta name="keywords" content="Guess Who Game" />
 
-		<link rel="stylesheet" type="text/css" href="styles/flip.css">
+		<link rel="stylesheet" type="text/css" href="styles/flip.css" />
 		<!-- <link rel="stylesheet" type="text/css" href="examples/basic/styles/base.css"> -->
 
 
@@ -25,45 +25,45 @@
 			<tr>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/xuanbac.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/xuanbac.png" /></div>
       						<div class="back">Xuân Bắc</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/binz.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/binz.png" /></div>
       						<div class="back">BinZ</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/buianhtuan.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/buianhtuan.png" /></div>
       						<div class="back">Bùi Anh Tuất</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/congly.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/congly.png" /></div>
       						<div class="back">Công Lý</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/damvinhhung.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/damvinhhung.png" /></div>
       						<div class="back">Đàm Vĩnh Hưng</div>
   							</div>
 					</label>
@@ -73,45 +73,45 @@
 						<tr>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/dantruong.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/dantruong.png" /></div>
       						<div class="back">Đan Trường</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/denvau.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/denvau.png" /></div>
       						<div class="back">Đen Vâu</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/ducphuc.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/ducphuc.png" /></div>
       						<div class="back">Đức Phúc</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/erik.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/erik.png" /></div>
       						<div class="back">Erik</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/gintuankiet.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/gintuankiet.png" /></div>
       						<div class="back">Gin Tuấn Kiệt</div>
   							</div>
 					</label>
@@ -121,45 +121,45 @@
 						<tr>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/haanhtuan.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/haanhtuan.png" /></div>
       						<div class="back">Hà Anh Tuấn</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/hoailinh.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/hoailinh.png" /></div>
       						<div class="back">Hoài Linh</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/isaac.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/isaac.png" /></div>
       						<div class="back">Isaac</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/jack.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/jack.png" /></div>
       						<div class="back">Jẻ Rách</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/junpham.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/junpham.png" /></div>
       						<div class="back">Jun Phạm</div>
   							</div>
 					</label>
@@ -169,45 +169,45 @@
 						<tr>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/lamtruong.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/lamtruong.png" /></div>
       						<div class="back">Lam Trường</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/lienbinhphat.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/lienbinhphat.png" /></div>
       						<div class="back">Liên Bỉnh Phát</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/noophuocthinh.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/noophuocthinh.png" /></div>
       						<div class="back">Noo Phước Thịnh</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/phanmanhquynh.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/phanmanhquynh.png" /></div>
       						<div class="back">Phan Mạnh Quỳnh</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/quangle.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/quangle.png" /></div>
       						<div class="back">Quang Lê</div>
   							</div>
 					</label>
@@ -217,45 +217,45 @@
 						<tr>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/quangtrung.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/quangtrung.png" /></div>
       						<div class="back">Quang Trung</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/soobin.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/soobin.png" /></div>
       						<div class="back">SooBin</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/thanhduy.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/thanhduy.png" /></div>
       						<div class="back">Thanh Duy</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/thanhloc.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/thanhloc.png" /></div>
       						<div class="back">Thành Lộc</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/tienluat.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/tienluat.png" /></div>
       						<div class="back">Tiến Luật</div>
   							</div>
 					</label>
@@ -265,46 +265,46 @@
 						<tr>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/tranthanh.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/tranthanh.png" /></div>
       						<div class="back">Trấn Thành</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/truongthevinh.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/truongthevinh.png" /></div>
       						<div class="back">Trương Thế Vinh</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/unghoangphuc.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/unghoangphuc.png" /></div>
       						<div class="back">Ưng Hoàng Phúc</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/wowy.png"></div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/wowy.png" /></div>
       						<div class="back">Wowy</div>
   							</div>
 					</label>
 				</td>
 				<td>
 					<label>
-  						<input type="checkbox"  />
+  						<input type="checkbox" />
   							<div class="card">
-      						<div class="front"><img src="https://hphuoctruong.github.io/image/binhminh.png"></div>
-      						<div class="back">Bình Minh</div>
+      						<div class="front"><img src="https://hphuoctruong.github.io/image/BinhMinh.png" /></div>
+      						<div class="back"></div>
   							</div>
 					</label>
 				</td>
@@ -315,3 +315,5 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	</body>
 </html>
+
+:ET
