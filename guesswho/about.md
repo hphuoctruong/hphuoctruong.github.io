@@ -1,5 +1,5 @@
 ---
-title: Rubik
+title: Guess Who
 permalink: /guesswho/
 
 # The About page
