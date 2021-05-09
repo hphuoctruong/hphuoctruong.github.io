@@ -47,8 +47,7 @@ label {
 label:hover .card {
     -webkit-transform: rotateX(20deg);
     transform: rotateX(20deg);
-    background: #222;
-    color: #FFF;
+    box-shadow: rgba(50,50,50,.2);
 }
 
 input {
@@ -63,6 +62,5 @@ input {
 label:hover :checked + .card {
     transform: rotateX(160deg);
     -webkit-transform: rotateX(160deg);
-    background: #222;
-    color: #FFF;
+    box-shadow: rgba(255,255,255,.2);
 }
