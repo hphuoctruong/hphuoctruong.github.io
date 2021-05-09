@@ -170,7 +170,18 @@ defaults:
 
   -
     scope:
-      path: tabsen
+      path: rubik
+    values:
+      layout: page
+      breadcrumb:
+        -
+          label: Home
+          url: /
+
+
+  -
+    scope:
+      path: guesswho
     values:
       layout: page
       breadcrumb:
@@ -216,4 +227,4 @@ sitemap_exclude:  # Sitemap will exclude the following items.
     - sitemap.xml
     - robots.txt
     - redirects.json
-    - /tabsen/
+    - /rubik/
