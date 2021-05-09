@@ -4,7 +4,6 @@ label {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     display: block;
-    background: rgb(27, 27, 30);
     width: 180px;
     height: 180px;
     left: 50%;
@@ -20,10 +19,11 @@ label {
     -webkit-transition: all 200ms;
     transition: all 200ms;
     z-index: 20;
+    background: rgb(27, 27, 30);
+    color: rgb(27, 27, 30);
 }
 
     .card div {
-        position: absolute;
         height: 100%;
         width: 100%;
         background: #FFF;
@@ -35,13 +35,14 @@ label {
     }
 
     .card .back {
-        background: #222;
-        color: #FFF;
+        background: rgb(27, 27, 30);
+        color: rgb(255, 255, 255);
         -webkit-transform: rotateX(180deg);
         transform: rotateX(180deg);
     }
 
 label:hover .card {
+    background: rgb(27, 27, 30);
     -webkit-transform: rotateX(20deg);
     transform: rotateX(20deg);
     box-shadow: 0 20px 20px rgba(50,50,50,.2);
