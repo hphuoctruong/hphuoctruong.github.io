@@ -1,0 +1,54 @@
+I"‹<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+		<meta name="description" content="Guess Who" />
+		<meta name="keywords" content="Guess Who Game" />
+
+		<link rel="stylesheet" type="text/css" href="styles/flip.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="examples/basic/styles/base.css"> -->
+
+
+		<style>
+
+		 html, body, #container{
+		 	margin: 0px;
+		 	padding: 0px;
+		 	width: 100%;
+		 	height: 500px;
+		 }
+		</style>
+	</head>
+
+	<body>
+		<table>
+			<tr>
+				<td>
+					<label>
+  						<input type="checkbox" />
+  							<div class="card">
+      						<div class="front"><img src="https://lh3.googleusercontent.com/193EzoHgw0Qoz163MMdgLJWUF6epv-VgWV73VQyCSfZvgo5h6XVQjQ-wbG4D3dqwk-KyYjj8blABAMZS1Qf5t7SLvOAtJKomAtUEk8xq4aaByOvyEh1Zo4Q6KyAfEHoml3LmKCXGF7JHNOZph5TUR-igtbMnPZDMCLfimFK-hK5P1i5WqjfGj19SePo4Cf23desL4U6RLKDk3SLfw1mDK47h5iS88ZHMBadIdbrUQG3QymXuZzeiCvNOScRbLDHUWJtclws9V_4pNG2EDvksVLMA6_JEcikY95NFXnHwwM5G1bsN8lldKSNdFi-tqRIc6fFlaZAaQue2xzaJtpuQ4ldhZjXm8M0FlJbzFuhXYtDCRGwRO-QEWCmS8e8_KBwJDuudbWBy5PItX9FFL3KpTrtGNpLzVpmgO5NY-YB64iD4U_4w2Ht0grFRaHVPcouriifPkkmvFHaF6Nmen9-Wu9a0tVnujIU5rhi2f7edtpg_u5Er04vAoBx_3_-uV6vLhzcFFzLLeBEAXJcm3nthC8UJUaxxTUcHAfeRsNr_A_SFZiMFYw20lvHPapaBtpZZztlGtHznP9z9fOVWJr4onbF8r2HNHdjMD236gpiyP8Autu2iRT13bffZc1Wr7c4d59dz4UDOTTn3Ot-7BGyNfOKiqoEBnBPm_ED6hMERY5vZsTgerJJjHyYR3hLAGkz763XkbcmYfo591gQa5oCYGQ=w180-h217-no?authuser=0" />&lt;/img&gt;</div>
+      						<div class="back"></div>
+  							</div>
+					</label>
+				</td>
+				<td>
+					<label>
+  						<input type="checkbox" />
+  							<div class="card">
+      						<div class="front">234</div>
+      						<div class="back">ABC</div>
+  							</div>
+					</label>
+				</td>
+
+			</tr>
+		</table>
+
+
+
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	</body>
+</html>
+
+:ET
