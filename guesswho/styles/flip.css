@@ -4,7 +4,7 @@ label {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     display: block;
-    width: 300px;
+    width: 200px;
     height: 200px;
     position: absolute;
     left: 50%;
@@ -38,7 +38,7 @@ label {
     }
 
     .card .back {
-        background: rgb(27, 27, 30);
+        background: #222;
         color: #FFF;
         -webkit-transform: rotateX(180deg);
         transform: rotateX(180deg);
