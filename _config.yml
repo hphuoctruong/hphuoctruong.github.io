@@ -167,7 +167,6 @@ defaults:
         -
           label: Home
           url: /
-
   -
     scope:
       path: rubik
@@ -177,8 +176,6 @@ defaults:
         -
           label: Home
           url: /
-
-
   -
     scope:
       path: guesswho
@@ -188,7 +185,6 @@ defaults:
         -
           label: Home
           url: /
-
 
 sass:
   sass_dir: /assets/css
