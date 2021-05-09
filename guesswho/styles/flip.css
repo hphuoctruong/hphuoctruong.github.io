@@ -20,8 +20,8 @@ label {
     width: 100%;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transition: all 600ms;
-    transition: all 600ms;
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
     z-index: 20;
 }
 
@@ -32,8 +32,6 @@ label {
         background: #FFF;
         text-align: center;
         line-height: 200px;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
         border-radius: 2px;
     }
 
