@@ -32,11 +32,13 @@ label {
         background: #FFF;
         text-align: center;
         line-height: 200px;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
         border-radius: 2px;
     }
 
     .card .back {
-        background: #222;
+        background: rgb(27, 27, 30);
         color: #FFF;
         -webkit-transform: rotateX(180deg);
         transform: rotateX(180deg);
@@ -45,7 +47,6 @@ label {
 label:hover .card {
     -webkit-transform: rotateX(20deg);
     transform: rotateX(20deg);
-    box-shadow: 0 20px 20px rgba(50,50,50,.2);
 }
 
 input {
@@ -60,5 +61,4 @@ input {
 label:hover :checked + .card {
     transform: rotateX(160deg);
     -webkit-transform: rotateX(160deg);
-    box-shadow: 0 20px 20px rgba(255,255,255,.2);
 }
