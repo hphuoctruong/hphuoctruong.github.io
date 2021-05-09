@@ -1,6 +1,6 @@
 ---
 title: Rubik
-permalink: /rubik/
+permalink: /guesswho/
 
 # The About page
 # v2.0
@@ -8,4 +8,4 @@ permalink: /rubik/
 # © 2017-2019 Cotes Chung
 # MIT License
 ---
-{% include rubik.html %}
+{% include flip.html %}
