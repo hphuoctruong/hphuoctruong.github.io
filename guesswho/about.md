@@ -1,6 +1,6 @@
 ---
 title: Rubik
-permalink: /rubik/
+permalink: /guesswho/
 
 # The About page
 # v2.0
