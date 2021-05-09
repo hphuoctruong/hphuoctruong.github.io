@@ -180,7 +180,7 @@ defaults:
     scope:
       path: guesswho
     values:
-      layout: post
+      layout: page
       breadcrumb:
         -
           label: Home
