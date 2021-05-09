@@ -12,6 +12,7 @@ label {
 }
 
 .card {
+    position: relative;
     height: 100%;
     width: 100%;
     -webkit-transform-style: preserve-3d;
@@ -19,10 +20,12 @@ label {
     -webkit-transition: all 200ms;
     transition: all 200ms;
     background: rgb(27, 27, 30);
+    z-index: 20;
     color: rgb(27, 27, 30);
 }
 
     .card div {
+        position: absolute;
         height: 100%;
         width: 100%;
         background: #FFF;
@@ -35,7 +38,8 @@ label {
 
     .card .back {
         background: rgb(27, 27, 30);
-        color: rgb(255, 255, 255);
+        text-align: center;
+        color: #FFF;
         -webkit-transform: rotateX(180deg);
         transform: rotateX(180deg);
     }
@@ -44,7 +48,7 @@ label:hover .card {
     background: rgb(27, 27, 30);
     -webkit-transform: rotateX(20deg);
     transform: rotateX(20deg);
-    box-shadow: 0 20px 20px rgba(50,50,50,.2);
+    box-shadow: 0 2px 2x rgba(50,50,50,.2);
 }
 
 input {
@@ -59,5 +63,5 @@ input {
 label:hover :checked + .card {
     transform: rotateX(160deg);
     -webkit-transform: rotateX(160deg);
-    box-shadow: 0 20px 20px rgba(255,255,255,.2);
+    box-shadow: 0 2px 2x rgba(255,255,255,.2);
 }

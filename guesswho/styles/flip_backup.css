@@ -12,7 +12,6 @@ label {
 }
 
 .card {
-    position: relative;
     height: 100%;
     width: 100%;
     -webkit-transform-style: preserve-3d;
@@ -25,7 +24,6 @@ label {
 }
 
     .card div {
-        position: absolute;
         height: 100%;
         width: 100%;
         background: #FFF;
@@ -38,8 +36,6 @@ label {
 
     .card .back {
         background: rgb(27, 27, 30);
-        text-align: center;
-        color: #FFF;
         -webkit-transform: rotateX(180deg);
         transform: rotateX(180deg);
     }
