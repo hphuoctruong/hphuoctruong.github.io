@@ -1,4 +1,4 @@
-I"¸)<p>This Jekyll template totally compatible with Markdown syntax. Now, letâ€™s have a look at the text and typography.</p>
+I"Ç)<p>This Jekyll template totally compatible with Markdown syntax. Now, letâ€™s have a look at the text and typography.</p>
 
 <h2 id="titles">Titles</h2>
 
@@ -96,7 +96,7 @@
 
 <h2 id="footnote">Footnote</h2>
 
-<p>Click the hook will locate the footnote<sup id="fnref:footnote" role="doc-noteref"><a href="#fn:footnote" class="footnote">1</a></sup>.</p>
+<p>Click the hook will locate the footnote<sup id="fnref:footnote" role="doc-noteref"><a href="#fn:footnote" class="footnote" rel="footnote">1</a></sup>.</p>
 
 <h2 id="image">Image</h2>
 
