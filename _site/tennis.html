@@ -1,0 +1,303 @@
+<html>
+<head>
+<title>Novak Djokovic vs Stefanos Tsitsipas</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//foxcdn.life/showads.js"></script>
+<style>#site-contenedor,.mask{left:0;bottom:0;top:0}#site-contenedor{right:0;font-weight:700}.mask{position:absolute;z-index:1}body{margin:0;padding:0;background: #000;font-family:"Helvetica Neue",Helvetica,sans-serif;} #site-contenedor{position:absolute;margin:auto;height:322px;width: 300px;z-index:100;color:gray;font-size:12px;text-align:center}.mask{right:0;background-color:rgba(0, 0, 0, .3)}.close{position:absolute;left:5px;bottom:5px;cursor:pointer;display:none}.close img{width:12px} #close,#stats{position:absolute;left:0;bottom:0}[data-watermark]{width:auto !important}.hold{height: 100%;width: 100%;}.left{position: absolute;left:5px;top:5px;color:white;z-index: 999}@media (max-width : 500px) {.close img{width:35px}} #overlay{position: absolute;left: 0;right: 0;top:0;bottom: 0;
+    z-index: 999999999;}.media-control[data-media-control] .media-control-background[data-background]{height: 46px!important;background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.9))!important;}
+    </style>
+<script>
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires="+d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/;SameSite=None; Secure";
+    };
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(";");
+        for(var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == " ") {
+                c = c.substring(1);
+            };
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            };
+        };
+        return "";
+    };
+    if(document.cookie){
+        if(document.cookie.indexOf("volume=") != -1){
+        } else {
+            setCookie("volume", 100, 365);
+        };
+    } else {
+        setCookie("volume", 100, 365);
+    };
+    pvolume = parseInt(getCookie("volume"));
+    function isInArray(value, array) {
+      return array.indexOf(value) > -1;
+    };
+
+    function extractHostname(url) {
+      var hostname;
+      if (url.indexOf("://") > -1) {
+        hostname = url.split("/")[2];
+      } else {
+        hostname = url.split("/")[0];
+      };
+      hostname = hostname.split(":")[0];
+      hostname = hostname.split("?")[0];
+      return hostname;
+    };
+
+
+    function unsandbox(){
+
+        if(typeof player.version === 'undefined'){ //clappr
+          player.configure({source: "https://google.com"});
+        } else {
+          if(typeof player.unmute === 'undefined'){//jwplayer
+            player.load("https://google.com");
+          } else { //bitmovin
+            player.load({source:"https://google.com"});
+          }
+        }
+
+        $("body").html("<p class=\"sand\">Sandboxing is not allowed</p>");
+        $("body").css("color","white");
+        $(document).off( "click", "*" );
+    };
+    function vwu() {
+      document.getElementById('whosamung').src="https://whos.amung.us/cwidget/freestreamon/000000ffffff.png?" + Date.parse((new Date).toString());
+    }
+
+    var hostname = extractHostname(document.referrer);
+    var blackdomains = "blackisteddomain.com";
+    var blacklist = blackdomains.split(",");
+    var whitedomains = "mlb-live.stream,freestream.online,sportsbay.org,box-live.stream,baseball-live.stream,mls-live.stream,live-nba.stream,live-nhl.stream,live-tennis.stream,cricket-live.stream,football-live.stream,formula1-live.stream,ufc-live.stream,bundesliga-live.stream,epl-live.stream,premierleague-live.stream,ligue1-live.stream,live-nfl.stream,calcio-live.stream,nascar-live.stream,ncaa-live.stream,futebolaovivo.stream,barcelona-live.stream";
+    var whitelist = whitedomains.split(",");
+
+    if (!document.referrer) {
+    //if (isInArray(hostname, blacklist) || !document.referrer) {
+      window.open('https://sportsbay.org/');
+      setTimeout(function(){
+        document.location.href = "https://sportsbay.org";
+      },1000);
+      //top.location = "https://sportsbay.org/";
+      //window.location.href="https://sportsbay.org/";
+      //window.location.replace("https://sportsbay.org/");
+      //document.location.href = "https://foxcdn.life/watchstream.php?image=&tag=football-live.stream&cache=35";
+    }
+
+    var isiOS = /iPad|iPhone|iPod/.test(navigator.platform) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+        var isEdge = /Edge/.test(navigator.userAgent);
+    var isAndroid = /(android)/i.test(navigator.userAgent);
+    isMobile = false;
+    if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent)
+    || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(navigator.userAgent.substr(0,4))) {
+      isMobile = true;
+    }
+  </script>
+</head>
+<body style="margin:0px;padding:0px;overflow:hidden">
+<div id="overlay"></div>
+<script>
+  function errorPlaying(){
+    url = "/stream/3/111133.html";
+    var a = document.createElement("a");
+    if (a.click) {
+        a.setAttribute("href", url);
+        a.setAttribute("target", "_self");
+        a.style.display = "none";
+        document.body.appendChild(a);
+        a.click();
+    } else {
+        location.href = url;
+    }
+
+  }
+
+
+</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
+<div id="vid" class="embed-responsive-item"></div>
+<script type="text/javascript">
+player = new Clappr.Player({
+            source: 'https://e10.cdnfoxtv.me/ingestnb4s/espn_sur/master.m3u8',
+            mimeType: "application/x-mpegURL",
+            autoPlay: true,
+            mute: true,
+            height: '100%',
+            width: '100%',
+            plugins: {'core': [LevelSelector]},
+            parentId: "#vid",
+            hideMediaControl: false,
+            events: {
+              onError: function(e) { errorPlaying() }
+            }
+});
+</script>
+<script type="text/javascript">
+
+  (function($){
+    $.adblockDetector = {
+      detect: function() {
+        var deferred = new $.Deferred();
+        var adBlock = true;
+        var $dummy = $('<div class="adsbox">&nbsp;</div>').appendTo('body');
+        setTimeout(function () {
+          if ($dummy.height() > 0) {
+              adBlock = false;
+          }
+          $dummy.remove();
+          deferred.resolve(adBlock);
+        }, 100);
+        return deferred;
+      }
+    };
+  })(jQuery);
+
+
+
+  var popurl = "https://dcn.espncdn.shop/cashito.html"; //n pop | MainPop
+  var popurl2 = "https://dcn.espncdn.shop/mvcatch.html"; //n pop | MainPop
+
+
+      var secondpop = 5;
+    var nextpops = 17;
+    var maxpops = 4;
+
+  $.adblockDetector.detect().done(function(adblock){
+    if(adblock){
+      popurl = "https://dcn.espncdn.shop/cashito.html";
+      secondpop = 5;
+      nextpops = 5;
+      maxpops = 6;
+        //$("#site-contenedor .raulito").prop("src", "< ?=$adblockurl?>");
+      //if(typeof player !== 'undefined'){
+      //  player.destroy();
+      //}
+      //$("body").html('<div style="text-align:center;color:#fff;font-size:1rem;padding:1rem;"><p><img src="https://addons.cdn.mozilla.net/user-media/addon_icons/532/532754-64.png?modified=d96e390b"></p><h1>Adblock not allowed</h1><p>Disable your adblocker and <a style="color:lightblue" href="#" onclick="location.reload();">refresh the page</a>.</p></div>');
+    }
+  });
+
+
+bool = false;
+var openedwin = false;
+var volumeSet = false;
+var loop = 0;
+
+function getToVideo(e){
+    if(!openedwin){
+      if(window.open(popurl, '_blank')){
+        openedwin = true;
+        popurltmp = popurl;
+        popurl = popurl2;
+        popurl2 = popurltmp;
+        $("#overlay").hide();
+        loop++;
+        if(loop == 1){
+            var timer=setTimeout(function(){
+                refreshdl();
+            },secondpop*1000);
+        } else {
+          if(loop < (maxpops+1)){
+              var timer=setTimeout(function(){
+                  refreshdl();
+              },nextpops*1000);
+          }
+        }
+        e.preventDefault();
+      }
+    }
+}
+
+$(document).on('touchend click', "#overlay", function(e) {
+    getToVideo(e);
+    if(!volumeSet && typeof player !== 'undefined'){
+      if(typeof player.version === 'undefined'){ //clappr
+          player.configure({hideMediaControl: "true"});
+      } else {
+        if(typeof player.unmute !== 'undefined'){//jwplayer
+          player.unmute();
+        } else {
+          player.setMute(false);
+        }
+      }
+      player.setVolume(pvolume);
+      volumeSet = true;
+    }
+    e.stopImmediatePropagation();
+});
+$(document).ready(function() {
+    if(!isiOS && !isEdge){
+        $("body").append('<object data="data:application/pdf;base64,aG1t" width="1px" height="1px" style="position:absolute;top:-500px;left:-500px;visibility:hidden;" onerror="unsandbox();$(this).remove()"></object>');
+    }
+    if (!isInArray(hostname, whitelist)) {
+      vwu();
+      setInterval("vwu()", 300000);
+    }
+});
+
+function refreshdl(){
+    if(openedwin){
+        openedwin = false;
+        $("#overlay").show();
+    }
+}
+/*
+var timer=setTimeout(function(){
+    $('.close').fadeIn(300);
+},4000);
+*/
+</script>
+<script type="text/javascript">
+var par = { url: "https://www.greatdexchange.com/jump/next.php?r=2436407",
+            canurl: "https://www.greatdexchange.com/jump/next.php?r=2436407",
+            mins: 0,
+            method: "rdr",
+            mob: "yes"
+          };
+</script>
+<script type="text/javascript" src="//foxcdn.life/nwm-dbh.min3.js"></script><script type="text/javascript">
+if(typeof player !== 'undefined'){
+
+  if(typeof player.version === 'undefined'){ //clappr
+    player.on(Clappr.Events.PLAYER_VOLUMEUPDATE, function(volume){
+        setCookie("volume", volume, 365);
+    });
+  } else {
+    if(typeof player.unmute === 'undefined'){//jwplayer
+      player.on('volume', function(volume){
+        setCookie("volume", volume.volume, 365);
+      });
+    } else { //bitmovin
+      player.on(bitmovin.player.PlayerEvent.VolumeChanged, function(cfg){
+        setCookie("volume", cfg.targetVolume, 365);
+      });
+      player.on(bitmovin.player.PlayerEvent.Error, function(err){
+        errorPlaying();
+      });
+    }
+  }
+
+}
+</script>
+<div style="visibility:hidden;position:absolute;width:0;height:0;top:-200px;"><img id="whosamung" src="//whos.amung.us/cwidget/freestreamon/000000ffffff.png" alt="Whos.amung.us"></div>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-187547947-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-187547947-2');
+</script>
+<script> if (!isMobile) document.write('<script type="text/javascript" src="//cornerbut.com/15/d6/ce/15d6ce62d0f01528c7478f7446d71678.js"><\/script>'); </script><iframe sandbox="allow-forms allow-scripts allow-same-origin" src="https://dcn.espncdn.shop/espnload.html" style="width:0px;height:0px;border:0"></iframe>
+</body>
+</html>
