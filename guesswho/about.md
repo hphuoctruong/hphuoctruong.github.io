@@ -11,7 +11,7 @@ permalink: /euro2020/
 
 ## Live Streaming: Bỉ - Bồ Đào Nha
 
-<iframe allow='encrypted-media' width='640' height='360' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' allowfullscreen='yes' src='https://freefeds.com/stream/110665.html'></iframe>
+<iframe allow='encrypted-media' width='640' height='360' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' allowfullscreen='yes' src='https://freefeds.com/stream/2/110665.html'></iframe>
 
 ### Statistics
 
