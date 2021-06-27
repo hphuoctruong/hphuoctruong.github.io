@@ -15,4 +15,4 @@ permalink: /euro2020/
 
 ### Statistics
 
-<iframe allow='encrypted-media' width='100%' height='100%' marginwidth='0' marginheight='0' frameborder='0' allowfullscreen='yes' src='https://www.flashscore.com/match/61kaeqm6/#match-summary/match-statistics/0'></iframe>
+<iframe width='100%' height='100%' marginwidth='0' marginheight='0' frameborder='0' allowfullscreen='yes' src='https://www.whoscored.com/Matches/1553544/Live/International-European-Championship-2020-Netherlands-Czech-Republic'></iframe>
