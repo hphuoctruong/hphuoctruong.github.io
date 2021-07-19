@@ -25,6 +25,7 @@ In this note, we use the notations $$X,Y, u, y, \ldots$$ to denote random variab
 
 
 We write
+
 $$\int X(\omega) d \mathbb{P}(\omega), \text{ or } \int X(\omega) \mathbb{P}(d\omega).$$
 
 **Theorem.**
@@ -45,15 +46,26 @@ The function $$\pi$$ is called the Radon-Nikodym derivative of $$\mu_1$$ with re
 $$\pi = \dfrac{d\mu_1}{d\mu_2}.$$
 
 
-## **Joint probability distribution.**
+## **Joint probability distributions.**
 
-Let $$X_1 : \Omega \to \mathbb{R}^m$$ and $$X_2 : \Omega \to \mathbb{R}^n$$ be two random variables. The joint probability distribution of $$(X_1,X_2)$$ is the probability distribution $$\mu_{X_1, X_2}$$ of the product random variables
+Let $$X_1 : \Omega \to \mathbb{R}^m$$ and $$X_2 : \Omega \to \mathbb{R}^n$$ be two random variables. The joint probability distribution of $$(X_1,X_2)$$ is the probability distribution $$\mu_{X_1 X_2}$$ of the product random variables
 $$X_1 \times X_2: \Omega \to \mathbb{R}^m \times \mathbb{R}^n, \quad \omega \mapsto (X_1(\omega),X_2(\omega)),$$
 i.e.
-$$\mu_{X_1,X_2}(B_1,B_2) = \mathbb{P}(X_1^{-1}(B_1) \cap X_2^{-1}(B_2))$$
+$$\mu_{X_1X_2}(B_1,B_2) = \mathbb{P}(X_1^{-1}(B_1) \cap X_2^{-1}(B_2))$$
 for all $$B_1 \in \mathbb{B}(\mathbb{R^m}), B_2 \in \mathbb{B}(\mathbb{R^n}).$$
 
 
-## **Conditional probability and conditional distribution**
+## **Conditional probabilities and conditional distributions.**
 
-Let $$u,y: \Omega \to X$$ be two random variables. We first consider a simple case where $$X = \mathbb{R}^n$$. The conditional probability distribution of $$Y$$ given $$X$$ is a Markov kernel
+Let $$X_1 : \Omega \to \mathbb{R}^m$$ and $$X_2 : \Omega \to \mathbb{R}^n$$ be two random variables. Denote by $$\mu_{X_1X_2}$$ the joint probability distribution of $$(X_1,X_2)$$. The aim of this section is to find the probability distribution of $$X_2$$ when $$X_1$$ is given.
+
+
+ Assume that $$\mu_{X_1X_2}$$ admits a density function $$\pi_{X_1 X_2}: \mathbb{R}^m \times \mathbb{R}^n \to \mathbb{R}$$. We have
+
+$$\mu_{X_1 X_2}(B_1,B_2) = \int_{B_1 \times B_2} \pi_{X_1 X_2}(x_1,x_2)d x_1 dx_2, \quad \forall B_1 \times B_2 \subset \mathbb{R}^m \times \mathbb{R}^n.$$
+
+**Definition.** The marginal density of
+
+
+> Overthinking.
+> ABC.
