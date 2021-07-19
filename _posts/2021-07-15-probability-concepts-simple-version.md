@@ -62,9 +62,11 @@ Let $$X_1 : \Omega \to \mathbb{R}^m$$ and $$X_2 : \Omega \to \mathbb{R}^n$$ be t
 
  Assume that $$\mu_{X_1X_2}$$ admits a density function $$\pi_{X_1 X_2}: \mathbb{R}^m \times \mathbb{R}^n \to \mathbb{R}$$. We have
 
-$$\mu_{X_1 X_2}(B_1,B_2) = \int_{B_1 \times B_2} \pi_{X_1 X_2}(x_1,x_2)d x_1 dx_2, \quad \forall B_1 \times B_2 \subset \mathbb{R}^m \times \mathbb{R}^n.$$
+$$\mu_{X_1 X_2}(B_1,B_2) = \int_{B_1 \times B_2} \pi_{X_1 X_2}(x_1,x_2)d x_1 dx_2, \quad \forall B_1 \times B_2 \in \mathbb{B}(\mathbb{R}^m)\times \mathbb{B}(\mathbb{R}^n).$$
 
-**Definition.** The marginal density of
+**Definition.** The marginal density of $$X_1$$ is the the probability distribution of $$X_1$$ when $$X_2$$ may take on any value, i.e.,
+
+$$\mu_{X_1}(B_1):= \mu_{X_1 X_2}(B_1,\mathbb{R}^m),\quad \forall B_1 \in \mathbb{B}(\mathbb{R^m}).$$
 
 
 > Overthinking.
