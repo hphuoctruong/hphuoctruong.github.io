@@ -1,7 +1,7 @@
 ---
-title: Lecture 3. Bayes’ theorem on separable Banach spaces
-author: Thu-Le Tran, Phuoc-Truong Huynh
-date: 2021-07-13 12:00:00 +0200
+title: Appendix. Probability Theory: A simple approach.
+author: Phuoc-Truong Huynh
+date: 2021-07-15 12:00:00 +0200
 categories: [Seminar]
 tags: [inverse problems, bayesian, optimization]
 toc: true
@@ -16,17 +16,14 @@ Let $$(E,\mathbb{B}(E))$$ be a measurable space, where $$\mathbb{B}(E)$$ denotes
 
 A measurable mapping $$u: \Omega \to E$$ is a random variable. This random variable induces a probability measure $$\mu$$ on $$E$$ given by
 
-$$\mu(A):= \mathbb{P}(u^{-1}(A)) = \mathbb{P}\left(\left\{\omega \in \Omega: u(\omega) \in A\right\}\right),\quad A \in \mathbb{B}(E).$$
+$$\mu_X(A):= \mathbb{P}(X^{-1}(A)) = \mathbb{P}\left(\left\{\omega \in \Omega: X(\omega) \in A\right\}\right),\quad A \in \mathbb{B}(E).$$
 
-In this case, the measure $$\mu$$ is called the **probability distribution** of $$u$$ and we write $$u \sim \mu$$.
+The measure $$\mu_X$$ is called the **probability distribution** of $$u$$ and we write $$X \sim \mu_X$$. We note that $$\mu_X$$ is also called the push-forward of $$\mathbb{P}$$ via $$X$$ and is denoted by $$X_*\mathbb{P}$$.
 
 In this note, we use the notations $$X,Y, u, y, \ldots$$ to denote random variables.
 
 
-
-(We note that $$\mu$$ is also called the push-forward of $$\mathbb{P}$$ via $$u$$ and is denoted by $$u_*\mathbb{P}$$.)
-
-We write 
+We write
 $$\int X(\omega) d \mathbb{P}(\omega), \text{ or } \int X(\omega) \mathbb{P}(d\omega).$$
 
 **Theorem.**
@@ -38,6 +35,23 @@ $$\int_{\Omega_1}(f \circ X) d\mu = \int_{\Omega_2} f d(X_* \mu).$$
 In particular, if $$X$$ is a random variable on $$(\Omega, \mathcal{F}, \mathbb{P})$$, then
 
 $$\int f(x) \mathbb{P}(X \in dx):= \int f(x) dX_*\mathbb{P}(x) = \int f\circ X(\omega) d P(\omega).$$
+
+**Proposition.**
+Let $$\mu_1$$ and $$\mu_2$$ be two $$\sigma-$$ finite measures on $$\mathbb{R}^n$$ defined over the Borel $$\sigma-$$ algebra of $$\mathbb{R}^n$$ such that $$\mu_1 \ll \mu_2$$. Then there exists a measurable function $$\pi: \mathbb{R}^n \to \mathbb{R}$$ such that
+$$\mu_1(B) = \int_{B} \pi(x)d\mu_2(x),\quad \forall B \in \mathbb{B}(\mathbb{R^n}).$$
+
+The function $$\pi$$ is called the Radon-Nikodym derivative of $$\mu_1$$ with respect to $$\mu_2$$, denoted by
+$$\pi = \dfrac{d\mu_1}{d\mu_2}.$$
+
+
+## **Joint probability distribution.**
+
+Let $$X_1 : \Omega \to \mathbb{R}^m$$ and $$X_2 : \Omega \to \mathbb{R}^n$$ be two random variables. The joint probability distribution of $$(X_1,X_2)$$ is the probability distribution $$\mu_{X_1, X_2}$$ of the product random variables
+$$X_1 \times X_2: \Omega \to \mathbb{R}^m \times \mathbb{R}^n, \quad \omega \mapsto (X_1(\omega),X_2(\omega)),$$
+i.e.
+$$\mu_{X_1,X_2}(B_1,B_2) = \mathbb{P}(X_1^{-1}(B_1) \cap X_2^{-1}(B_2))$$
+for all $$B_1 \in \mathbb{B}(\mathbb{R^m}), B_2 \in \mathbb{B}(\mathbb{R^n}).$$
+
 
 ## **Conditional probability and conditional distribution**
 

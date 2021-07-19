@@ -1,7 +1,7 @@
 ---
-title: Lecture 3. Bayes’ theorem on separable Banach spaces
-author: Thu-Le Tran, Phuoc-Truong Huynh
-date: 2021-07-13 12:00:00 +0200
+title: Appendix. Probability Theory: An advanced approach.
+author: Phuoc-Truong Huynh
+date: 2021-07-15 12:00:00 +0200
 categories: [Seminar]
 tags: [inverse problems, bayesian, optimization]
 toc: true
@@ -26,7 +26,7 @@ In this note, we use the notations $$X,Y, u, y, \ldots$$ to denote random variab
 
 (We note that $$\mu$$ is also called the push-forward of $$\mathbb{P}$$ via $$u$$ and is denoted by $$u_*\mathbb{P}$$.)
 
-We write 
+We write
 $$\int X(\omega) d \mathbb{P}(\omega), \text{ or } \int X(\omega) \mathbb{P}(d\omega).$$
 
 **Theorem.**
