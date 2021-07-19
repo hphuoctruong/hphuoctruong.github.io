@@ -1,5 +1,5 @@
 ---
-title: Appendix. Probability Theory: A simple approach.
+title: Appendix. Probability Theory - A simple approach.
 author: Phuoc-Truong Huynh
 date: 2021-07-15 12:00:00 +0200
 categories: [Seminar]
@@ -43,7 +43,11 @@ Let $$\mu_1$$ and $$\mu_2$$ be two $$\sigma-$$ finite measures on $$\mathbb{R}^n
 $$\mu_1(B) = \int_{B} \pi(x)d\mu_2(x),\quad \forall B \in \mathbb{B}(\mathbb{R^n}).$$
 
 The function $$\pi$$ is called the Radon-Nikodym derivative of $$\mu_1$$ with respect to $$\mu_2$$, denoted by
+
 $$\pi = \dfrac{d\mu_1}{d\mu_2}.$$
+
+It can be seen that
+
 
 
 ## **Joint probability distributions.**
@@ -66,7 +70,20 @@ $$\mu_{X_1 X_2}(B_1,B_2) = \int_{B_1 \times B_2} \pi_{X_1 X_2}(x_1,x_2)d x_1 dx_
 
 **Definition.** The marginal density of $$X_1$$ is the the probability distribution of $$X_1$$ when $$X_2$$ may take on any value, i.e.,
 
-$$\mu_{X_1}(B_1):= \mu_{X_1 X_2}(B_1,\mathbb{R}^m),\quad \forall B_1 \in \mathbb{B}(\mathbb{R^m}).$$
+$$\mu_{X_1}(B_1):= \mu_{X_1 X_2}(B_1,\mathbb{R}^n),\quad \forall B_1 \in \mathbb{B}(\mathbb{R^m}).$$
+
+In this case, one has
+
+$$\mu_{X_1}(B_1):= \int_{B_1} \int_{\mathbb{R}^n} \pi_{X_1X_2}(x_1,x_2)dx_2 dx_1. \label{eq:eq1}\tag{1}$$
+
+If we denoted
+
+$$\pi_{X_1}(x_1):= \int_{\mathbb{R}^n} \pi_{X_1 X_2} (x_1,x_2) dx_2,$$
+
+then by \eqref{eq:eq1} can write
+$$\mu_{X_1}(B_1) = \int_{B_1} \pi_{X_1}(x_1)d x_1, \quad \forall B_1 \in \mathbb{B}(\mathbb{R}^m)$$
+
+In other words, $$\pi_{X_1}$$ is the probability density function of $$\mu_{X_1}$$.
 
 
 > Overthinking.

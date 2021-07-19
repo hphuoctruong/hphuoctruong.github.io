@@ -1,5 +1,5 @@
 ---
-title: Appendix. Probability Theory: An advanced approach.
+title: Appendix. Probability Theory - An advanced approach.
 author: Phuoc-Truong Huynh
 date: 2021-07-15 12:00:00 +0200
 categories: [Seminar]
