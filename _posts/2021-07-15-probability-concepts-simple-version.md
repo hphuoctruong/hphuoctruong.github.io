@@ -6,6 +6,7 @@ categories: [Seminar]
 tags: [inverse problems, bayesian, optimization]
 toc: true
 math: true
+pin: true
 ---
 
 ## **Basic concepts**
