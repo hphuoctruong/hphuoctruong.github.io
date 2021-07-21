@@ -85,6 +85,20 @@ $$\mu_{X_1}(B_1) = \int_{B_1} \pi_{X_1}(x_1)d x_1, \quad \forall B_1 \in \mathbb
 
 In other words, $$\pi_{X_1}$$ is the probability density function of $$\mu_{X_1}$$.
 
+**Proposition.**
+
+
+
+**Proof.**
+
+$$
+\begin{aligned}
+\mu_{X_1|X_2}(B|x_2)
+&= \mathbb{P}(\{\omega \in \Omega: X_1(\omega) \in B| X_2 = x_2\} \\
+&\lim_{\Delta}
+\end{aligned}
+$$
+
 
 > Overthinking.
 > ABC.

@@ -1,4 +1,4 @@
-I"o
+I"™
 <div id="archives" class="pl-xl-2">
 
   
@@ -13,9 +13,9 @@
       <div>
         
         
-        <span class="date day">19</span>
+        <span class="date day">15</span>
         <span class="date month small text-muted">Jul</span>
-        <a href="/posts/2021-07-15-probability-concepts-advanced-version/"></a>
+        <a href="/posts/probability-concepts-simple-version/">Appendix. Probability Theory - A simple approach.</a>
       </div>
     </li>
   
@@ -29,7 +29,7 @@
         
         <span class="date day">15</span>
         <span class="date month small text-muted">Jul</span>
-        <a href="/posts/probability-concepts-simple-version/">Appendix. Probability Theory. A simple approach.</a>
+        <a href="/posts/probability-concepts-advanced-version/">Appendix. Probability Theory - An advanced approach.</a>
       </div>
     </li>
   
