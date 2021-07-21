@@ -131,4 +131,4 @@ $$
 \mu_{X_1|X_2}(B_1|B_2) = \int_{B_1} \pi_{X_1|B_2}(x_1)dx_1.
 $$
 
-Hence, we have the desired probability density function.
+Hence, $$\pi_{X_1 / B_2}$$ the desired probability density function.
