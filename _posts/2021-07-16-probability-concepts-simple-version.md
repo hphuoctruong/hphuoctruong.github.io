@@ -78,27 +78,57 @@ $$\mu_{X_1}(B_1):= \int_{B_1} \int_{\mathbb{R}^n} \pi_{X_1X_2}(x_1,x_2)dx_2 dx_1
 
 If we denoted
 
-$$\pi_{X_1}(x_1):= \int_{\mathbb{R}^n} \pi_{X_1 X_2} (x_1,x_2) dx_2,$$
+$$
+\pi_{X_1}(x_1):= \int_{\mathbb{R}^n} \pi_{X_1 X_2} (x_1,x_2) dx_2,
+$$
 
 then by \eqref{eq:eq1} can write
-$$\mu_{X_1}(B_1) = \int_{B_1} \pi_{X_1}(x_1)d x_1, \quad \forall B_1 \in \mathbb{B}(\mathbb{R}^m)$$
+$$
+\mu_{X_1}(B_1) = \int_{B_1} \pi_{X_1}(x_1)d x_1, \quad \forall B_1 \in \mathbb{B}(\mathbb{R}^m).
+$$
 
 In other words, $$\pi_{X_1}$$ is the probability density function of $$\mu_{X_1}$$.
 
-**Proposition.**
-
-
-
-**Proof.**
+We define the conditional measure of $$B_1$$ conditioned on $$B_2$$, where $$\mu_{X_2}(B_2) = \mathbb{P}(X_2^{-1}(B_2))>0$$, by
 
 $$
 \begin{aligned}
-\mu_{X_1|X_2}(B|x_2)
-&= \mathbb{P}(\{\omega \in \Omega: X_1(\omega) \in B| X_2 = x_2\} \\
-&\lim_{\Delta}
+\mu_{X_1|X_2}: \mathbb{B}(\mathbb{R}^m) \times \mathbb{B}(\mathbb{R}^n) &\to [0,1] \\
+(B_1,B_2) &\mapsto \mu_{X_1|X_2}(B_1|B_2) := \dfrac{\mu_{X_1X_2}(B_1,B_2)}{\mu_{X_2}(B_2)}.
 \end{aligned}
 $$
 
+> **Overthinking**.
+> We note that with a fixed $$B_2$$ with $$\mu_{X_2}(B_2)> 0$$, the map $$B_1 \mapsto \mu_{X_1|X_2} (B_1|B_2)$$ is a probability measure on $$\mathbb{R}^m$$ since
+>
+>$$
+0\le \mu_{X_1X_2}(B_1,B_2) \le \mu_{X_1X_2}(\mathbb{R}^m,B_2) =  \mu_{X_2}(B_2),
+> $$
+>
+>by the definition of $$\mu_{X_2}(B_2)$$.
 
-> Overthinking.
-> ABC.
+Assume that $$X_1,X_2$$ are absolutely continuous. We find a function $$f(\cdot,B_2)$$ such that
+
+$$\mu_{X_1|X_2} (B_1|B_2) = \int_{B_1} f(x_1,B_2)dx_1.$$
+
+In this case, the function $$f(\cdot,B_2)$$ is called the density function of $$X_1$$ conditioned on $$B_2$$.
+
+Indeed, by the definition of $$\mu_{X_1X_2}$$, one has
+
+$$
+\mu_{X_1|X_2}(B_1|B_2) = \dfrac{1}{\mu_{X_2}(B_2)} \int_{B_1} \left(\int_{B_2} \pi_{X_1X_2}(x_1,x_2)dx_2\right)dx_1.
+$$
+
+If we denote
+
+$$
+\pi_{X_1|B_2}(x_1):= \dfrac{1}{\mu_{X_2}(B_2)} \int_{B_2} \pi_{X_1X_2}(x_1,x_2)dx_2,
+$$
+
+then
+
+$$
+\mu_{X_1|X_2}(B_1|B_2) = \int_{B_1} \pi_{X_1|B_2}(x_1)dx_1.
+$$
+
+Hence, we have the desired probability density function.
