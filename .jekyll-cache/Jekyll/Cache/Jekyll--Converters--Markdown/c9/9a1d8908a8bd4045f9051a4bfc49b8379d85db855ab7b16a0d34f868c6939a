@@ -1,0 +1,34 @@
+I"í<p>Let \(E,F\) be separable Banach spaces.</p>
+
+<h2 id="gaussian-measure">Gaussian measure.</h2>
+
+<p>Recall that for every measure \(\mu\) on \(E\) and \(f:E \to F\) is measurable, the push-forward measure \(f_* \mu\) is defined as</p>
+
+\[f_*\mu (B) = \mu \left(f^{-1}(B) \right),\quad \forall B \in \mathbb{B}(F).\]
+
+<p><strong>Definition (Gaussian measure).</strong> A Borel measure on \(E\) is said to be a <a href="https://en.wikipedia.org/wiki/Gaussian_measure" target="_blank">Gaussian measure</a>. if for every continuous linear functional \(f: E \to \mathbb{R}\), the push-forward measure \(f_* \mu\) is a Gaussian measure on \(\mathbb{R}.\)</p>
+
+<p><strong>Definition (Mean).</strong> Let \(\mu\) be a probability measure on \(E\). The mean of \(\mu\) is defined by</p>
+
+\[m_{\mu} := \int_{E} x d\mu(x).\]
+
+<p><strong>Definition (Covariance operator).</strong> The <a href="https://en.wikipedia.org/wiki/Covariance_operator" target="_blank">covariance operator</a> \(C_{\mu}\) of \(\mu\) is \(C_{\mu}: E^* \times E^* \to \mathbb{R}\) defined by</p>
+
+\[C_{\mu}(u^*,v^*) = \int_{E}\langle u^*,x - m_{\mu}\rangle_{E^*,E} \langle v^*,x - m_{\mu}\rangle_{E^*,E}d\mu(x)\]
+
+<p>for every \(u^*,v^* \in E\).</p>
+
+<p>In other words, \(C_{\mu} \in E^* \otimes E^*\).</p>
+
+<p><strong>Hilbert space.</strong> We assume that \(H\) is a Hilbert space. In this case, for centered measure \(\mu\) on \(H\), the covariance operator can be seen as an operator \(C_{\mu}: H \to H\) defined by</p>
+
+\[\langle C_{\mu} u, v \rangle_{H} = \int_{H} \langle u, x \rangle_H \langle v, x \rangle_H d\mu(x).\]
+
+<p>It can be seen that \(C_{\mu}\) is positive, self-adjoint and of trace class.</p>
+
+<p><strong>Theorem.</strong> Let \(\mu\) be a centered Gaussian measure on \(H\). Then \(C_{\mu}: H \to H\) is of trace class and</p>
+
+\[\text{tr}(C_{\mu}) = \int_{H} \|x\|^2 d\mu(x).\]
+
+<p>Conversely, if \(K : H \to H\) is positive, self-adjoint and of trace class, then there exists a Gaussian measure \(\mu\) on \(H\) such that \(C_{\mu} = K.\)</p>
+:ET

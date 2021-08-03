@@ -1,0 +1,65 @@
+I"ì
+<!-- Get pinned posts -->
+
+<!-- Get default posts -->
+
+<div id="post-list">
+
+
+
+  <div class="post-preview">
+    <div class="d-flex justify-content-between pr-xl-2">
+      <h1><a href="/posts/probability-and-integration-separable-hilbert-spaces/">Probability and Integration on Separable Hilbert Spaces</a></h1>
+      
+        <i class="fas fa-thumbtack fa-fw text-muted mt-1 ml-2 mt-xl-2" data-toggle="tooltip" data-placement="left" title="Pinned"></i>
+      
+    </div>
+    <div class="post-content">
+      <p>
+        
+
+
+
+
+
+        Let \(E,F\) be separable Banach spaces.
+
+Gaussian measure.
+
+Recall that for every measure \(\mu\) on a Banach space $X$ and \(f:X \to Y\) is measure the push-forward measure
+
+Definition. A Borel me...
+      </p>
+    </div>
+  </div> <!-- .post-review -->
+
+
+
+  <div class="post-preview">
+    <div class="d-flex justify-content-between pr-xl-2">
+      <h1><a href="/posts/probability-concepts-simple-version/">Appendix. Probability Theory - A simple approach.</a></h1>
+      
+        <i class="fas fa-thumbtack fa-fw text-muted mt-1 ml-2 mt-xl-2" data-toggle="tooltip" data-placement="left" title="Pinned"></i>
+      
+    </div>
+    <div class="post-content">
+      <p>
+        
+
+
+
+
+
+        Basic concepts
+
+A probability space is a triplet \((\Omega, \mathcal{F}, \mathbb{P})\), where \(\Omega\) is the sample space, \(\mathcal{F}\) is a \(\sigma-\) algebra of events and \(\mathbb{P}\) i...
+      </p>
+    </div>
+  </div> <!-- .post-review -->
+
+
+
+</div>
+<p><!-- #post-list --></p>
+
+:ET

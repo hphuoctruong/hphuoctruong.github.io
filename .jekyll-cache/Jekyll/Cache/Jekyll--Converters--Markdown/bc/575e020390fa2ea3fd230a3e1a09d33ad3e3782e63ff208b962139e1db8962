@@ -1,0 +1,170 @@
+I"ì
+<div class="card categories">
+    <!-- top-category -->
+    <div class="card-header d-flex justify-content-between hide-border-bottom" id="h_0">
+      <span>
+      
+        <i class="far fa-folder-open fa-fw"></i>
+      
+        <a href="/categories/abstract-algebra/" class="ml-1 mr-2">
+          Abstract Algebra
+        </a>
+
+        <!-- content count -->
+        
+        <span class="text-muted small font-weight-light">
+          
+            1
+            category,
+          
+            1
+            post
+        </span>
+      </span>
+
+      <!-- arrow -->
+      
+      <a href="#l_0" data-toggle="collapse" aria-expanded="true" class="category-trigger hide-border-bottom">
+        <i class="fas fa-fw fa-angle-down"></i>
+      </a>
+      
+
+    </div> <!-- .card-header -->
+
+    <!-- Sub-categories -->
+    
+    <div id="l_0" class="collapse show" aria-expanded="true">
+      <ul class="list-group">
+        
+        <li class="list-group-item">
+          <i class="far fa-folder fa-fw"></i>
+          <a href="/categories/tutorial/" class="ml-1 mr-2">Tutorial</a>
+          
+          <span class="text-muted small font-weight-light">3
+            posts
+          </span>
+        </li>
+        
+      </ul>
+    </div>
+    
+
+  </div>
+<p><!-- .card --></p>
+
+<div class="card categories">
+    <!-- top-category -->
+    <div class="card-header d-flex justify-content-between hide-border-bottom" id="h_1">
+      <span>
+      
+        <i class="far fa-folder-open fa-fw"></i>
+      
+        <a href="/categories/blogging/" class="ml-1 mr-2">
+          Blogging
+        </a>
+
+        <!-- content count -->
+        
+        <span class="text-muted small font-weight-light">
+          
+            2
+            categories,
+          
+            3
+            posts
+        </span>
+      </span>
+
+      <!-- arrow -->
+      
+      <a href="#l_1" data-toggle="collapse" aria-expanded="true" class="category-trigger hide-border-bottom">
+        <i class="fas fa-fw fa-angle-down"></i>
+      </a>
+      
+
+    </div> <!-- .card-header -->
+
+    <!-- Sub-categories -->
+    
+    <div id="l_1" class="collapse show" aria-expanded="true">
+      <ul class="list-group">
+        
+        <li class="list-group-item">
+          <i class="far fa-folder fa-fw"></i>
+          <a href="/categories/demo/" class="ml-1 mr-2">Demo</a>
+          
+          <span class="text-muted small font-weight-light">1
+            post
+          </span>
+        </li>
+        
+        <li class="list-group-item">
+          <i class="far fa-folder fa-fw"></i>
+          <a href="/categories/tutorial/" class="ml-1 mr-2">Tutorial</a>
+          
+          <span class="text-muted small font-weight-light">3
+            posts
+          </span>
+        </li>
+        
+      </ul>
+    </div>
+    
+
+  </div>
+<p><!-- .card --></p>
+
+<div class="card categories">
+    <!-- top-category -->
+    <div class="card-header d-flex justify-content-between hide-border-bottom" id="h_2">
+      <span>
+      
+        <i class="far fa-folder-open fa-fw"></i>
+      
+        <a href="/categories/seminar/" class="ml-1 mr-2">
+          Seminar
+        </a>
+
+        <!-- content count -->
+        
+        <span class="text-muted small font-weight-light">
+          
+            1
+            category,
+          
+            6
+            posts
+        </span>
+      </span>
+
+      <!-- arrow -->
+      
+      <a href="#l_2" data-toggle="collapse" aria-expanded="true" class="category-trigger hide-border-bottom">
+        <i class="fas fa-fw fa-angle-down"></i>
+      </a>
+      
+
+    </div> <!-- .card-header -->
+
+    <!-- Sub-categories -->
+    
+    <div id="l_2" class="collapse show" aria-expanded="true">
+      <ul class="list-group">
+        
+        <li class="list-group-item">
+          <i class="far fa-folder fa-fw"></i>
+          <a href="/categories/variational-analysis/" class="ml-1 mr-2">Variational Analysis</a>
+          
+          <span class="text-muted small font-weight-light">1
+            post
+          </span>
+        </li>
+        
+      </ul>
+    </div>
+    
+
+  </div>
+<p><!-- .card --></p>
+
+:ET

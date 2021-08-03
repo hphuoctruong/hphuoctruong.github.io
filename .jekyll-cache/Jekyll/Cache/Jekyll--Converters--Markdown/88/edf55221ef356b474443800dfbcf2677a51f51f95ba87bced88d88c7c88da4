@@ -1,0 +1,43 @@
+I"
+<p>Let \(E,F\) be separable Banach spaces.</p>
+
+<h2 id="gaussian-measure">Gaussian measure.</h2>
+
+<p>Recall that for every measure \(\mu\) on \(E\) and \(f:E \to F\) is measurable, the push-forward measure \(f_* \mu\) is defined as</p>
+
+<p>[f_*\mu (B) = \mu \left(f^{-1}(B) \right),\quad \forall B \in \mathbb{B}(F).]</p>
+
+<p><strong>Definition (Gaussian measure).</strong> A Borel measure on \(E\) is said to be a <a href="https://en.wikipedia.org/wiki/Gaussian_measure" target="_blank">Gaussian measure</a>. if for every continuous linear functional \(f: E \to \mathbb{R}\), the push-forward measure \(f_* \mu\) is a Gaussian measure on \(\mathbb{R}.\)</p>
+
+<p><strong>Definition (Mean).</strong> Let \(\mu\) be a probability measure on \(E\). The mean of \(\mu\) is defined by</p>
+
+<p>[m_{\mu} := \int_{E} x d\mu(x).]</p>
+
+<p><strong>Definition (Covariance operator).</strong> The <a href="https://en.wikipedia.org/wiki/Covariance_operator" target="_blank">covariance operator</a> \(C_{\mu}\) of \(\mu\) is \(C_{\mu}: E^* \times E^* \to \mathbb{R}\) defined by</p>
+
+<p>[C_{\mu}(u^<em>,v^</em>) = \int_{E}\langle u^<em>,x - m_{\mu}\rangle_{E^</em>,E} \langle v^<em>,x - m_{\mu}\rangle_{E^</em>,E}d\mu(x)]</p>
+
+<p>for every \(u^*,v^* \in E\).</p>
+
+<p>In other words, \(C_{\mu} \in E^* \otimes E^*\).</p>
+
+<p><strong>Hilbert space.</strong> We assume that \(H\) is a Hilbert space. In this case, for centered measure \(\mu\) on \(H\), the covariance operator can be seen as an operator \(C_{\mu}: H \to H\) defined by</p>
+
+<p>[\langle C_{\mu} u, v \rangle_{H} = \int_{H} \langle u, x \rangle_H \langle v, x \rangle_H d\mu(x).]</p>
+
+<p>It can be seen that \(C_{\mu}\) is positive, self-adjoint and of trace class. In particular, \(C_{\mu}\) is a compact operator.</p>
+
+<p><strong>Theorem.</strong> Let \(\mu\) be a centered Gaussian measure on \(H\). Then \(C_{\mu}: H \to H\) is of trace class and</p>
+
+<p>[\text{tr}(C_{\mu}) = \int_{H} |x|^2 d\mu(x).]</p>
+
+<p>Conversely, if \(K : H \to H\) is positive, self-adjoint and of trace class, then there exists a Gaussian measure \(\mu\) on \(H\) such that \(C_{\mu} = K.\)</p>
+
+<p><strong>Definition (Cameron-Martin space).</strong> Let \(C_{\mu}\) be a positive, self-adjoint operator on \(H\).</p>
+
+<p>The Cameron-Martin space is defined as the completion of \(\text{range}(C_{\mu}^{\frac{1}{2}})\) with the inner product</p>
+
+<p>[\langle u, v \rangle_{\mu} := \langle u, v \rangle_H + \langle C_{\mu}^{-\frac{1}{2}} u, C_{\mu}^{-\frac{1}{2}} v \rangle_H,\quad u,v \in \text{range}(C_{\mu}^{\frac{1}{2}}).]</p>
+
+<p>**Example.</p>
+:ET

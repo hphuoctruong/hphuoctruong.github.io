@@ -1,0 +1,8 @@
+I"d<p>Let \(E\) be a separable Banach space.</p>
+
+<h2 id="gaussian-measure">Gaussian measure.</h2>
+
+<p><strong>Definition.</strong> A Borel measure on \(E\) is said to be a Gaussian measure if for every continuous linear functional \(f: E \to \mathbb{R}\), the push-forward measure \(f_* \mu\) is a Gaussian measure on \(\mathbb{R}.\)</p>
+
+<p>Recall that</p>
+:ET

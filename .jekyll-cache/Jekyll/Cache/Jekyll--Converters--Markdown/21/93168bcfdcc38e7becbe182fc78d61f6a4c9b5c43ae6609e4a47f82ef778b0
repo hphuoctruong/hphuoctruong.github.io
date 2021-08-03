@@ -1,0 +1,19 @@
+I"<p>Let \(E,F\) be separable Banach spaces.</p>
+
+<h2 id="gaussian-measure">Gaussian measure.</h2>
+
+<p>Recall that for every measure \(\mu\) on \(E\) and \(f:E \to F\) is measurable, the push-forward measure \(f_* \mu\) is defined as
+\(f_*\mu (B) = \mu \left(\{ x \in E: f(x) \in B \} \right),\quad \forall B \in \mathbb{B}(F).\)</p>
+
+<p><strong>Definition (Gaussian measure).</strong> A Borel measure on \(E\) is said to be a <a href="https://en.wikipedia.org/wiki/Gaussian_measure" target="_blank">Gaussian measure</a>. if for every continuous linear functional \(f: E \to \mathbb{R}\), the push-forward measure \(f_* \mu\) is a Gaussian measure on \(\mathbb{R}.\)</p>
+
+<p><strong>Definition (Mean).</strong> Let \(\mu\) be a probability measure on \(E\). The mean of \(\mu\) is defined by
+\(m_{\mu} := \int_{E} x d\mu(x).\)</p>
+
+<p><strong>Definition (Covariance operator).</strong> The <a href="https://en.wikipedia.org/wiki/Covariance_operator" target="_blank">covariance operator</a> \(C_{\mu}\) of \(\mu\) is \(C_{\mu}: E^* \times E^* \to \mathbb{R}\) defined by</p>
+
+<p>\(C_{\mu}(u^*,v^*) = \int_{E}\langle u^*,x - m_{\mu}\rangle_{E^*,E} \langle v^*,x - m_{\mu}\rangle_{E^*,E}d\mu(x)\)
+for every \(u^*,v^* \in E\).</p>
+
+<p>In other words, \(C_{\mu} \in E^* \otimes E^*\).</p>
+:ET
